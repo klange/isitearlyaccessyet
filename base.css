@@ -11,4 +11,7 @@ body {
     background-position: 50% 50%;
     color: #fff;
 }
-
+div.container {
+    display: table-cell;
+    vertical-align: middle;
+}
