@@ -11,9 +11,16 @@ body {
     background-position: 50% 50%;
     color: #fff;
 }
-div.container {
+div.floater {
+    float: left;
     width: 100%;
-    height: 100%;
+    height: 50%;
+    margin-bottom: -200px;
+}
+div.container {
+    clear: both;
+    height: 400px;
+    position: relative;
     text-align: center;
     display: table-cell;
     vertical-align: middle;
