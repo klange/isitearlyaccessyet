@@ -1,7 +1,12 @@
-
+html {
+    height: 100%;
+}
 body {
+    height: 100%;
     background-color: #000;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
     color: #fff;
 }
+
