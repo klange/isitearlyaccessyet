@@ -17,4 +17,5 @@ div.container {
     margin: auto;
     height: 400px;
     width: 100%;
+    text-align: center;
 }
