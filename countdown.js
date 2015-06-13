@@ -40,7 +40,7 @@ function Resync() {
 if (typeof(TargetDate)=="undefined")
   TargetDate = "12/31/2020 5:00 AM";
 if (typeof(DisplayFormat)=="undefined")
-  DisplayFormat = "%%H%%時間%%M%%分%%S%%秒%%MS%%ミリ秒";
+  DisplayFormat = "%%D%%日%%H%%時間%%M%%分%%S%%秒%%MS%%ミリ秒";
 if (typeof(CountActive)=="undefined")
   CountActive = true;
 if (typeof(CountStepper)!="number")
